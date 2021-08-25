@@ -50,9 +50,8 @@ footer {
 .animals div {
     display: flex;
     flex-direction: column;
-
-
 }
+
 span {
     text-align: center;
 }
