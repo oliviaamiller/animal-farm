@@ -11,7 +11,7 @@ main {
 }
 
 header {
-    background-color: #A2D7D2;
+    background-color: #FFD64D;
     height: 110px;
     padding: 0 30px;
     display: flex;
@@ -32,4 +32,17 @@ h1 {
 footer {
     background-color: #FAF0EA;
     padding: 10px;
+}
+
+.animals img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.animals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
